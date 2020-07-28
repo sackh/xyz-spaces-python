@@ -4,6 +4,6 @@ channels:
 dependencies:
   - pip
   - pip:
-    - "-r requirements.txt"
-    - "-r requirements_dev.txt"
+    - "-r ../requirements.txt"
+    - "-r ../requirements_dev.txt"
     - "-e ."
