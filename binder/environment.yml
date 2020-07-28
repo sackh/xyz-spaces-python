@@ -1,0 +1,9 @@
+name: xyzspaces
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - "-r requirements.txt"
+    - "-r dev_requirements.txt"
+    - "-e ."
