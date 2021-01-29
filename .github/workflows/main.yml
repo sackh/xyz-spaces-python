@@ -52,7 +52,7 @@ jobs:
         HERE_USER: ${{ secrets.HERE_USER }}
         HERE_PASSWORD: ${{ secrets.HERE_PASSWORD }}
       run: |
-        pytest -v --durations=10 --cov-report=xml --cov=xyzspaces tests
+        pytest -v --durations=10 --cov=xyzspaces tests --cov-report=xml
 
     - name: Upload coverage to Codecov
       if: github.ref == 'refs/heads/master' && matrix.os == 'ubuntu-latest' && matrix.python-version == '3.8'
@@ -60,6 +60,7 @@ jobs:
       with:
         file: ./coverage.xml
         flags: unittests
+        verbose: true
 
     - name: Build Docs and Changelog (Only on Linux for saving time)
       if: matrix.os == 'ubuntu-latest'
