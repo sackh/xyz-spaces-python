@@ -34,10 +34,6 @@ jobs:
       run: |
         conda env update --file ci/env/environment.yml --name test
 
-    - name: Install xyzspaces
-      shell: bash -l {0}
-      run: pip install .[dev]
-
     - name: Lint check
       shell: bash -l {0}
       run: |
@@ -68,3 +64,7 @@ jobs:
       run: |
         make draft_changelog
         sh scripts/build_docs.sh
+
+    - name: Install xyzspaces
+      shell: bash -l {0}
+      run: pip install .[dev]
