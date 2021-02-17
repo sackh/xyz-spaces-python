@@ -1,7 +1,7 @@
 # XYZ Spaces for Python
 
 [![Documentation Status](https://img.shields.io/readthedocs/xyz-spaces-python?logo=read-the-docs)](https://xyz-spaces-python.readthedocs.io/en/latest/?badge=latest)
-[![Build Status](https://travis-ci.com/heremaps/xyz-spaces-python.svg?branch=master)](https://travis-ci.com/github/heremaps/xyz-spaces-python)
+![Tests](https://github.com/heremaps/xyz-spaces-python/workflows/Tests/badge.svg)
 [![PyPI - Status](https://img.shields.io/pypi/status/xyzspaces)](https://pypi.org/project/xyzspaces/)
 [![PyPI - Python Version](https://img.shields.io/pypi/v/xyzspaces.svg?logo=pypi)](https://pypi.org/project/xyzspaces/)
 [![PyPI - Implementation](https://img.shields.io/pypi/implementation/xyzspaces)](https://pypi.org/project/xyzspaces/)
@@ -17,6 +17,8 @@
 [![Slack](https://img.shields.io/badge/heredev-datahub-00AFAA?logo=slack)](https://heredev.slack.com)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![commits since](https://img.shields.io/github/commits-since/heremaps/xyz-spaces-python/latest.svg)](https://github.com/heremaps/xyz-spaces-python/commits/master)
+[![Anaconda-Server Badge](https://anaconda.org/conda-forge/xyzspaces/badges/latest_release_date.svg)](https://anaconda.org/conda-forge/xyzspaces)
+[![Anaconda-Server Badge](https://anaconda.org/conda-forge/xyzspaces/badges/license.svg)](https://anaconda.org/conda-forge/xyzspaces)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/heremaps/xyz-spaces-python/master?urlpath=lab/tree/docs/notebooks)
 
 Manage your [XYZ Hub](https://github.com/heremaps/xyz-hub) or [HERE Data Hub](https://developer.here.com/products/data-hub) spaces from Python.

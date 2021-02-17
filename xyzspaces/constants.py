@@ -15,6 +15,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # License-Filename: LICENSE
 
-"""Project version information."""
+"""This module defines project level constants."""
 
-__version__ = "0.5.0"
+XYZ_BASE_URL = "https://xyz.api.here.com"
